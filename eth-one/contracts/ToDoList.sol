@@ -4,4 +4,8 @@ contract TodoList {
     
     // it will take initial value as 0
     uint public myNum;
+
+    struct Task{
+        
+    }
 }
