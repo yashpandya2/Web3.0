@@ -1,11 +1,27 @@
 {
   "contractName": "TodoList",
-  "abi": [],
-  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820a534939f65b57e4e7e93896c5a6312fac9ab8e48392bf605af5dcda9237306b70029",
-  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820a534939f65b57e4e7e93896c5a6312fac9ab8e48392bf605af5dcda9237306b70029",
-  "sourceMap": "27:85:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:85:1;;;;;;;",
-  "deployedSourceMap": "27:85:1:-;;;;;",
-  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract TodoList {\r\n    \r\n    // it will take initial value as 0\r\n    uint myNum;\r\n}",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "myNum",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xd4da005a"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060998061001e6000396000f3fe608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663d4da005a81146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a723058202757a1ba86c7c5968adb4dd6f48b636d3dcb63aceefa9d985b205510820e8ba30029",
+  "deployedBytecode": "0x608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663d4da005a81146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a723058202757a1ba86c7c5968adb4dd6f48b636d3dcb63aceefa9d985b205510820e8ba30029",
+  "sourceMap": "27:92:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:92:1;;;;;;;",
+  "deployedSourceMap": "27:92:1:-;;;;;;;;;;;;;;;;;;;;;;;98:17;;8:9:-1;5:2;;;30:1;27;20:12;5:2;98:17:1;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract TodoList {\r\n    \r\n    // it will take initial value as 0\r\n    uint public myNum;\r\n}",
   "sourcePath": "C:/Users/91910/Desktop/Web3.0/eth-one/contracts/ToDoList.sol",
   "ast": {
     "absolutePath": "/C/Users/91910/Desktop/Web3.0/eth-one/contracts/ToDoList.sol",
@@ -47,7 +63,7 @@
             "name": "myNum",
             "nodeType": "VariableDeclaration",
             "scope": 37,
-            "src": "98:10:1",
+            "src": "98:17:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -65,14 +81,14 @@
               }
             },
             "value": null,
-            "visibility": "internal"
+            "visibility": "public"
           }
         ],
         "scope": 38,
-        "src": "27:85:1"
+        "src": "27:92:1"
       }
     ],
-    "src": "0:112:1"
+    "src": "0:119:1"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/91910/Desktop/Web3.0/eth-one/contracts/ToDoList.sol",
@@ -114,7 +130,7 @@
             "name": "myNum",
             "nodeType": "VariableDeclaration",
             "scope": 37,
-            "src": "98:10:1",
+            "src": "98:17:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -132,22 +148,29 @@
               }
             },
             "value": null,
-            "visibility": "internal"
+            "visibility": "public"
           }
         ],
         "scope": 38,
-        "src": "27:85:1"
+        "src": "27:92:1"
       }
     ],
-    "src": "0:112:1"
+    "src": "0:119:1"
   },
   "compiler": {
     "name": "solc",
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xF9e94831bf7974a59cD13443E2c324565A12da8D",
+      "transactionHash": "0x7392589d3b03a6705786713d2a92a6169e93ccc352aa50b5a30bd36ff0f60045"
+    }
+  },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2022-06-28T05:44:11.769Z",
+  "updatedAt": "2022-06-28T06:19:57.217Z",
   "devdoc": {
     "methods": {}
   },
