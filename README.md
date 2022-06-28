@@ -1,6 +1,6 @@
 ## Web3.0
 
-
+Ethereum
 ## Information about Web3.0
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/yashpandya2/Web3.0?logo=github&style=for-the-badge)](https://github.com/yashpandya2/) 
