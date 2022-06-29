@@ -1,0 +1,8 @@
+.app {
+  /* text-align: center; */
+  background-color: black;
+  /* width: fit-content; */
+  /* padding: 15px; */
+  min-height: 100vh;
+  min-width: 100vw;
+}
